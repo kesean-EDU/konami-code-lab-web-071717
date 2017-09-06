@@ -14,6 +14,6 @@ const keyPresses = []
       keyPresses.shift()
     }
     if (keyPresses.join('') === code.join('')) {
-      window.alert("Konami Code!")
+      alert("Konami Code!")
     }
   }
